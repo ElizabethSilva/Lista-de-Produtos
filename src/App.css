@@ -48,10 +48,14 @@
 .form {
   position: relative;
   left: -10px;
+  top: 21px;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  
+  background-color: #7A506F;
+  height: 33px;
 }
 
 label {
@@ -63,7 +67,6 @@ label {
 
 .form select {
   margin-left: 20px;
-  color: black;
   border: none;
   padding: 5px;
   border-radius: 5px;
@@ -72,9 +75,9 @@ label {
 
 .form select,
 .form select option {
-  color: #ffffff; 
+  color: #fff; 
   font-weight: bold;
-  background-color: var(--primary-color);
+  background-color: #7A506F;
   border: none;
 }
 
