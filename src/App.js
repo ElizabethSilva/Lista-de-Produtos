@@ -12,11 +12,9 @@ function App() {
 
   const classification = (value) => {
     if (value === 'menorPreco') {
-      // Ordenar produtos por menor preço
       const sortedProducts = products.slice().sort((a, b) => a.preco - b.preco);
       setProducts(sortedProducts);
     } else if (value === 'maiorPreco') {
-      // Ordenar produtos por maior preço
       const sortedProducts = products.slice().sort((a, b) => b.preco - a.preco);
       setProducts(sortedProducts);
     }

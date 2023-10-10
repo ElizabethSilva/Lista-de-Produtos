@@ -31,7 +31,7 @@
 }
 
 .search-top {
-  width: 100%; /* A barra de pesquisa ocupa 100% da largura do seu contêiner pai */
+  width: 100%; 
   max-width: 800px;
   border: none;
   border-radius: 10px;
@@ -130,12 +130,12 @@ button {
 @media (max-width: 767px) {
   .search-top {
     width: 100%;
-    max-width: 300px; /* Ajuste a largura máxima conforme necessário */
+    max-width: 300px; 
     height: 30px;
     font-size: 14px;
     margin-top: 10px;
     padding-left: 10px;
-    border: none; /* Remova a borda para uma aparência mais limpa */
+    border: none; 
     border-radius: 10px;
   }
 
@@ -143,21 +143,20 @@ button {
     position: static;
     margin-top: 10px;
     text-align: center;
-    justify-content: flex-end; /* Adicione esta linha para centralizar os itens */
+    justify-content: flex-end; 
   }
 
   .rank option,
   .form select {
-    font-size: 10px; /* Tamanho da fonte reduzido para 10 pixels */ /* Ajuste o preenchimento conforme necessário */
+    font-size: 10px; 
     width: 30%;
-     /* Defina a largura como 100% para ocupar o contêiner pai */
   }
 
   .product-item {
     width: calc(50% - 20px);
     max-width: 200px;
-    margin: 10px; /* Reduzi a margem para 10px para um espaçamento mais compacto */
-    font-size: 10px; /* Reduzi o tamanho da fonte para 10 pixels */
+    margin: 10px; 
+    font-size: 10px; 
   }
 }
 
