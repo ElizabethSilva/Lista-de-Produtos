@@ -93,8 +93,7 @@ label {
   padding: 15px;
   border-radius: 5px;
   background-color: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
   flex: 1 1 100%; 
 }
 
@@ -125,6 +124,34 @@ label {
 button {
   color: #000;
   font-weight: bold;
+}
+
+.card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 350px;
+  height: 350px;;
+  transform: translate(-50%, -50%);
+  background-color: rgb(243, 243, 243);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card button {
+  margin-top: 20px; 
+  position: absolute;
+  bottom: 10px; 
+  left: 8%;
+  width: 85%;
+  height: 40px;
+  background-color: #D49DC6;
+  border: none;
 }
 
 @media (max-width: 767px) {
@@ -158,6 +185,10 @@ button {
     margin: 10px; 
     font-size: 10px; 
   }
+
+  .card {
+    width: 85%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -183,5 +214,9 @@ button {
     max-width: 200px;
     margin: 20px;
     font-size: 14px;
+  }
+
+  .card {
+    width: calc(50% - 40px);
   }
 }
