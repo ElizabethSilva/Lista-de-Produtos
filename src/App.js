@@ -42,7 +42,7 @@ function App() {
                 <img src={product.img} alt={product.nome} />
               </div>
               <strong>{product.nome}</strong> <br /><br />
-              <strong>{product.preco}</strong> <br />
+              <strong>R$ {product.preco}</strong> <br />
               <div className='button'>
                 <a href={product.link} target="_blank" rel="noopener noreferrer">
                   <button className="buy">Comprar</button>
