@@ -72,6 +72,7 @@ function App() {
             <h2>{selectedProduct.nome}</h2>
             <p>R$ {selectedProduct.preco}</p>
             <p>{selectedProduct.descricao}</p>
+            <p>{selectedProduct.status}</p>
             <button onClick={closeCard}>Fechar</button>
           </div>
         </div>
