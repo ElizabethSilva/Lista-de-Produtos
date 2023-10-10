@@ -1,13 +1,36 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@100&family=Open+Sans&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Montserrat', inter; 
+  color: #000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.pagination {
+  width: 100vw;
+  height: 40px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: var(--primary-color);
 }
+
+.pagination a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5F5C6B;
+  font-size: 15px;
+}
+
+.pagination .active {
+  color: #FF9F10; 
+}
+
+.pagination a:hover {
+  color: #FF9F10; 
+}
+
+
